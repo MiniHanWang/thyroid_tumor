@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+pillow
+openpyxl
+pyyaml
+python-docx
+joblib
+shap
+tqdm
+torch
+torchvision
+xgboost
