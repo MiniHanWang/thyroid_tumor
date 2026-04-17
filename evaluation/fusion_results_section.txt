@@ -1,0 +1,3 @@
+The multimodal fusion dataset was successfully merged by patient_id, yielding one patient-level record per case with clinical variables, aggregated image embeddings, and malignancy labels. In the current run, 688 patients were assigned to the training cohort and 172 patients to the testing cohort. The fusion model achieved an AUC of 0.811, accuracy of 0.791, sensitivity of 0.929, specificity of 0.533, precision of 0.788, recall of 0.929, and F1-score of 0.852.
+
+Comparative analysis across the clinical-only, ultrasound-only, and fusion models is summarized in the model comparison table. Explainability outputs were also generated, including SHAP analysis for clinical variables and Grad-CAM examples for representative ultrasound images.

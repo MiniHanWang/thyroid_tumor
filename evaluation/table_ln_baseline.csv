@@ -1,0 +1,35 @@
+﻿variable,group_0,group_1,test,p_value
+age,"46.00 [39.00, 55.00]","41.00 [34.00, 51.00]",Mann-Whitney U,1.4663960162906204e-05
+weight_kg,"61.00 [55.00, 69.12]","62.00 [54.00, 72.00]",Mann-Whitney U,0.30478484424622365
+height_cm,"159.50 [156.00, 165.00]","162.00 [158.00, 168.00]",Mann-Whitney U,7.757636744918541e-05
+bmi,"23.80 [21.50, 26.10]","23.60 [21.50, 26.30]",Mann-Whitney U,0.5811031242569779
+sex=0,214 (81.1%),209 (70.1%),,
+sex=1,50 (18.9%),89 (29.9%),,
+sex (overall),,,Chi-square,0.003751963458283362
+smoking_bin=0,235 (89.0%),256 (85.9%),,
+smoking_bin=1,29 (11.0%),42 (14.1%),,
+smoking_bin (overall),,,Chi-square,0.32706387816398863
+drinking_bin=0,238 (90.2%),243 (81.5%),,
+drinking_bin=1,26 (9.8%),55 (18.5%),,
+drinking_bin (overall),,,Chi-square,0.005445558707038279
+hypertension=0,211 (79.9%),260 (87.2%),,
+hypertension=1,53 (20.1%),38 (12.8%),,
+hypertension (overall),,,Chi-square,0.025245718561617003
+diabetes=0,237 (89.8%),277 (93.0%),,
+diabetes=1,27 (10.2%),21 (7.0%),,
+diabetes (overall),,,Chi-square,0.2320477510030821
+hepatitis=0,249 (94.3%),278 (93.3%),,
+hepatitis=1,15 (5.7%),20 (6.7%),,
+hepatitis (overall),,,Chi-square,0.7419961709839866
+thyroid_history=0,234 (88.6%),285 (95.6%),,
+thyroid_history=1,30 (11.4%),13 (4.4%),,
+thyroid_history (overall),,,Chi-square,0.003103647034071731
+other_cancer_history=0,252 (95.5%),286 (96.0%),,
+other_cancer_history=1,12 (4.5%),12 (4.0%),,
+other_cancer_history (overall),,,Chi-square,0.9247408041695082
+thyroiditis_flag=0,186 (70.5%),192 (64.4%),,
+thyroiditis_flag=1,78 (29.5%),106 (35.6%),,
+thyroiditis_flag (overall),,,Chi-square,0.15299620011575332
+nodular_goiter_flag=0,166 (62.9%),204 (68.5%),,
+nodular_goiter_flag=1,98 (37.1%),94 (31.5%),,
+nodular_goiter_flag (overall),,,Chi-square,0.1927931040581753

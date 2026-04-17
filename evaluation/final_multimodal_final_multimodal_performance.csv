@@ -1,0 +1,2 @@
+model,backbone,AUC,Accuracy,Sensitivity,Specificity,Precision,Recall,F1
+final_multimodal,efficientnet_b0,0.5,0.3333333333333333,1.0,0.0,0.3333333333333333,1.0,0.5

@@ -1,0 +1,20 @@
+Thyroid publishable analysis cleaning log
+Final analysis source sheet: raw_input
+Key variables: sex, age, bmi, smoking_bin, drinking_bin, hypertension, diabetes, hepatitis, thyroid_history, other_cancer_history, thyroiditis_flag, nodular_goiter_flag, malignant, ln_metastasis
+
+Quality summary:
+- n_rows: 995
+- n_cols: 41
+- duplicate_id_n: 0
+- review_flag_n: 3
+- malignant_missing_n: 135
+- ln_metastasis_missing_n: 0
+
+Cleaning actions:
+- Standardized sex/smoking/drinking and comorbidities to binary coding.
+- Recomputed BMI and flagged BMI mismatch > 0.3.
+- Derived malignant and indeterminate labels from pathology mapping.
+- Derived LN metastasis from pathology text.
+- Standardized birthplace to province/region categories.
+- Added review_flag for duplicates and outliers without deletion.
+- Produced imputed and complete-case analysis datasets.

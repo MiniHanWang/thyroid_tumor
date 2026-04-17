@@ -1,0 +1,8 @@
+{
+  "n_rows": 995,
+  "n_cols": 41,
+  "duplicate_id_n": 0,
+  "review_flag_n": 3,
+  "malignant_missing_n": 135,
+  "ln_metastasis_missing_n": 0
+}

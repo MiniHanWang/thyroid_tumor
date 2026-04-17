@@ -1,0 +1,5 @@
+Best backbone: resnet50
+AUC: 0.830357
+Accuracy: 0.837209
+Sensitivity: 0.946429
+Specificity: 0.633333

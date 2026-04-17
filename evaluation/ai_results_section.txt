@@ -1,0 +1,1 @@
+A total of 860 patients were used for modeling, including 688 training patients and 172 testing patients. The best-performing model was Clinical_LogisticRegression with AUC 0.707 and accuracy 0.663.

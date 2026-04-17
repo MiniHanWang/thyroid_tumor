@@ -1,0 +1,11 @@
+﻿sheet_name,n_rows,n_cols,columns
+README,21,1,甲状腺995例研究级数据集模板（恶性预测 + 危险因素分析）
+raw_input,995,11,ID | 性别 | 年龄 | 体重(kg) | 身高(cm) | BMI | 吸烟史 | 饮酒史 | 既往病史 | 出生地 | 病理诊断
+cleaned_dataset,0,44,ID | sex_raw | sex_code | age | weight_kg | height_cm | bmi_raw | bmi_calc | bmi_diff | bmi_group | smoking_raw | smoking_bin | smoking_years | smoking_cigs_per_day | drinking_raw | drinking_bin | drinking_years | pmh_raw | hypertension | diabetes | hyperlipidemia | hepatitis | tuberculosis | thyroid_history | prior_surgery | prior_cancer | autoimmune_history | birthplace_raw | province_std | city_std | pathology_raw | pathology_main | papillary_ca | medullary_ca | follicular_carcinoma | follicular_adenoma | follicular_lesion | nodular_goiter | thyroiditis_hashimoto | malignant_label | indeterminate_label | ln_metastasis | final_analysis_include | review_flag
+codebook,23,5,变量名 | 类型 | 含义 | 编码/规则 | 建模建议
+pathology_mapping,20,5,关键词 | pathology_main | malignant_label | indeterminate_label | 备注
+cleaning_rules,10,2,规则 | 说明
+publishable_data_dictionary,35,10,variable_name | label_cn | label_en | category | data_type | role | coding_or_unit | derivation_rule | recommended_analysis_use | publication_note
+modeling_variable_list,30,7,variable_name | analysis_tier | keep_in_primary_model | transform_or_encoding | missing_data_strategy | collinearity_note | suggested_use
+endpoint_definitions,5,6,endpoint | definition_for_publication | positive_class | negative_class | recommended_population | notes
+feature_engineering_plan,12,6,step_no | task | implementation_rule | output_variable | priority | publication_relevance

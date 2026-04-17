@@ -1,0 +1,2 @@
+model,backbone,AUC,Accuracy,Sensitivity,Specificity,Precision,Recall,F1
+weak_supervised_reasoning,efficientnet_b0,0.5,0.25,0.0,0.5,0.0,0.0,0.0

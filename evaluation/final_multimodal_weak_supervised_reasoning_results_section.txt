@@ -1,0 +1,3 @@
+Dataset inspection identified 995 patient folders and 18520 ultrasound images. After matching the clinical spreadsheet to patient folders and excluding patients without images, the final multimodal analysis included 860 patients, of whom 688 were assigned to the training cohort and 172 to the testing cohort.
+
+In the current run, the final multimodal model achieved an AUC of 0.824, accuracy of 0.814, sensitivity of 0.973, specificity of 0.517, precision of 0.790, recall of 0.973, and F1-score of 0.872. SHAP analysis was generated for the clinical component, and Grad-CAM examples were produced for representative ultrasound images.
